@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+  
+        
+<!-- Mirrored from oldminecraft.neocities.org/stats/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 Mar 2023 13:26:13 GMT -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Minecraft</title>
+        <meta name="description" content="Minecraft is a game about placing blocks to build anything you can imagine. At night monsters come out, make sure to build a shelter before that happens.">
+        <meta name="author" content="Mojang AB">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" media="handheld" href="../assets/css/handheld.html">
+                <!--[if !IE 7]>
+        <style type="text/css">
+        #wrap {display:table;height:100%}
+        </style>
+        <![endif]-->
+        <script src="assets/js/modernizr.min.html"></script>
+        <script>
+            function recordOutboundLink(link, category, action, label, value) {
+                try {
+                    _gaq.push(['_trackEvent', category, action, label, value]);
+                    setTimeout('document.location = "' + link.href + '"', 100);
+                }catch(err){}
+            }
+            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-9482675-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'http://web.archive.org/web/20120501052028/https://ssl' : 'http://web.archive.org/web/20120501052028/http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body onload="maintenanceRedirect()">
+        <div id="iframe">
+        </div>
+        <div id="wrap">
+            <header>
+                <div id="header_container" class="clearfix">
+                    <a id="logo" href="../index.html">Minecraft</a>
+                    <ul id="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li>
+                            <a href="../game/index.html">Game</a>
+                            <ul>
+                                <li><a href="../game/game.html">About the Game</a></li>
+                                <li><a href="../game/howtoplay/index.html">How to Play</a></li>
+                                <li><a href="../game/credits/index.html">Credits</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../community/index.html">Community</a></li>
+                        <li><a href="../store/index.html">Store</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="http://help.mojang.com/">Help</a></li>
+                    </ul>
+                    <div id="userbox">
+                   <span class="logged-out"><a href="../login/index.html">Log in</a> | <a href="../register/index.html">Register</a></span>
+                                            </div>
+                </div>
+            </header>
+
+            <noscript>
+            &lt;div id="javascript-warning" class="warning warning-yellow"&gt;
+                Please, please enable JavaScript to use this site.
+            &lt;/div&gt;
+            </noscript>
+
+            <div id="main" role="main" class="clearfix controller-Site action-stats path_stats">
+                
+<script>
+    var totalUsers = 14207656;
+    var paidUsers = 3641794;
+    var totalUsersRate = 0.3442623;
+    var paidUsersRate = 0.032786883;
+</script>
+
+<section class="left">
+    <h1>Statistics</h1>
+    <p>
+        14,207,656 registered users, of which 3,641,794 (21.43%) have bought the game.
+    </p>
+    <p>
+        In the last 24 hours, 77,468 people registered, and 9,822 people bought the game.
+    </p>
+</section>
+<section class="right">
+</section>            </div>
+        </div>
+
+        <footer>
+            Mojang © 2009-2021. "Minecraft" is a trademark of Mojang Studios AB — This website is NOT affiliated with Mojang Studios AB. <a href="www.minecraft.net/terms.html">Terms of Use</a>
+
+        <script src="../assets/js/json2.js"></script>
+        <script src="../assets/js/jquery.min.html"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery-1.5.1.min.js"%3E%3C/script%3E'))</script>
+        <script src="../assets/js/jquery.dataTables.min.js"></script>
+                <script src="../assets/js/jquery.timeago.js"></script>
+        <script src="../assets/js/sammy.js"></script>
+        <script type="text/javascript">
+
+            var accountServiceAddress = "http://web.archive.org/web/20120501052028/http://account.mojang.local:9001";
+
+            var app = $.sammy('#main', function() {
+
+                this.debug = true;
+
+                this.get('../index.html', function() {
+                    var action = function(options) {var pattern = '../index.html'; for(key in options) { pattern = pattern.replace(':'+key, options[key]); } return pattern }
+                    this.partial(action());
+                });
+
+                this.get('/game', function() {
+                    var action = function(options) {var pattern = '/game'; for(key in options) { pattern = pattern.replace(':'+key, options[key]); } return pattern }
+                    this.partial(action());
+                });
+
+                this.get('/login', function() {
+                    var action = function(options) {var pattern = '/login'; for(key in options) { pattern = pattern.replace(':'+key, options[key]); } return pattern }
+                    this.partial(action());
+                });
+
+                this.get('/register', function() {
+                    var action = function(options) {var pattern = '/register'; for(key in options) { pattern = pattern.replace(':'+key, options[key]); } return pattern }
+                    this.partial(action());
+                });
+
+            });
+
+            $(document).ready(function() {
+                if ($('html').is('.history') && false) {
+                    app.run(window.location.pathname);
+                } else {
+                    $(document).trigger('changed');
+                }
+            });
+        </script>
+        <script src="../assets/js/plugins.js"></script>
+        <script src="../assets/js/main.js"></script>
+		<script src="maintenance.html"></script>
+    
+</body>
+<!-- Mirrored from oldminecraft.neocities.org/stats/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 29 Mar 2023 13:26:17 GMT -->
+</html>
